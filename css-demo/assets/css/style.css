@@ -25,6 +25,27 @@ img{
   max-width: 100%;
 }
 
+.img-right{
+  float: right;
+  margin-left: 15px;
+  border: 1.5px solid lightgrey;
+  padding: 5px;
+}
+
+.img-left{
+  float: left;
+  margin-right: 15px;
+  border: 1.5px solid lightgrey;
+  padding: 5px;
+}
+
+.img-center{
+  display: block;
+  margin: 20px auto;
+  border: 1.5px solid lightgrey;
+  padding: 5px;
+}
+
 /*-------------------Global Styles------------------*/
 
 body {
@@ -99,6 +120,8 @@ header.primary nav a:hover{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 2px dashed #000000;
+  padding-bottom: 2.8rem;
 }
 
 #content article.post{
@@ -175,6 +198,84 @@ article.widget footer{
   font-size:.8rem;
   text-transform:uppercase;
 }
+
+#addon h2{
+  color: darkslateblue;
+  border-bottom: 1px dashed #000000;
+}
+
+#addon a{
+  color: darkslateblue;
+}
+
+#addon a:hover{
+  text-decoration: none;
+}
+
+#addon h3{
+  border-left: 10px solid darkslateblue;
+  padding: 5px 5px; 
+}
+
+table{
+  width: 100%;
+  border: 1px solid #3c448f;
+  border-collapse: collapse;
+}
+
+tr{
+
+}
+
+tr:nth-child(odd){
+  background-color: rgba(0,0,0,.2);
+}
+
+tr:hover{
+  background-color: rgba(0,0,0,.3);
+}
+
+td:nth-child(2n), td:nth-child(3n){
+  text-align: right;
+}
+
+th{
+  background: #3c448f;
+  color: #fff;
+  width: 33%;
+  padding: 8px;
+}
+
+td{
+  border: 1px solid #3c448f;
+  padding: 5px;
+
+}
+
+table caption{
+  color:#3b638b;
+  padding:10px;
+  font-weight:bold;
+  font-size:1.4rem;
+}
+
+dl{
+
+}
+
+dt{
+  font-weight: bold;  
+}
+
+dd{
+  margin-left: 0;
+}
+
+/* Adjacent Sibling Combinator */
+dd + dt{
+  margin-top: 1rem;
+}
+
 
 
 
