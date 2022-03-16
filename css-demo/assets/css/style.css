@@ -253,10 +253,38 @@ td{
 }
 
 table caption{
-  color:#3b638b;
-  padding:10px;
-  font-weight:bold;
-  font-size:1.4rem;
+  color: #3b638b;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#addon ol{
+  list-style-type: upper-alpha;
+  list-style-position: outside;
+  text-decoration: underline;  
+}
+
+#addon ol li{
+
+}
+
+
+
+#addon blockquote{
+  background-color: rgba(204, 49, 49, 0.15);
+  padding: 40px;
+  border: 14px dashed #c2d329;
+  border-radius: 15px;
+  font-size: 1.5;
+}
+
+#addon cite{
+  display: block;
+  font-size: .8rem;
+  text-align: left;
+  font-weight: bolder;
+  margin-top: 1.2rem;
 }
 
 dl{
